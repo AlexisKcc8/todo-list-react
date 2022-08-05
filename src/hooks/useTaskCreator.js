@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { nanoid } from "https://cdn.jsdelivr.net/npm/nanoid/nanoid.js";
+import { nanoid } from "nanoid";
 export const useTaskCreator = () => {
   const [formTask, setFormTask] = useState({});
   const [isEdit, setIsEdit] = useState(false);
